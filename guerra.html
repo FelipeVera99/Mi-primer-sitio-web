@@ -3,22 +3,42 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="styles.css">
       <title>Elefantes en la guerra - Mi Primer Sitio Web</title>
    </head>
    <body>
     <header>
-        <h2>Elefantes en la guerra</h2>
-        <hr />
+        <h1><a href="index.html">Elefantes</a></h1>
+        <div class="menunav">                    <!--Menú de navegación-->
+            <ul>
+                <il>
+                    <a href="comportamiento.html">Comportamientos</a>        <!--página con una lista desordenada-->
+                </il>                
+                <il>
+                    <a href="mitos.html">Realidades y mitos</a>                
+                </il>
+                <il>
+                    <a href="guerra.html">El elefante en la guerra</a>       <!--Texto e imágenes-->
+                </il>
+                <il>
+                    <a href="formulario.html">¿Qué te pareció?</a>           <!--Aquí se encuentra un formulario básico-->
+                </il>
+            </ul>
+        </div>
     </header>
     <main>
-        <p>La industria del hombre y el furor por hacer daño a sus enemigos hizo que emplease este enorme cuadrúpedo en la guerra, armándole de diferentes modos, entre ellos unos castilletes o torres de madera, desde donde cierto número de guerreros disparaban armas arrojadizas. Heliodoro fija el número de soldados que montaba la torre en seis. De todos modos, puede juzgarse el daño que haría esta especie de fortificación movible, pues además de las flechas y dardos que despedían sus defensores, el elefante hacía también uso de la trompa, puesto que según algunos historiadores, este animal se aficiona mucho a los ejercicios bélicos.</p>
-        <div>
-            <img src="Indian_war_elephant.jpg" />
-            <p>La primera vez que le vemos aparecer en escena en la historia militar es en la batalla de Arbela o Arbella (Siria) año de 331 a. C. en que Darío, rey de Persia, los presentó en número de 15 en el centro de su línea de batalla, contra Alejandro el Grande, el cual a pesar de esto, venció a su enemigo y le despojó del reino. El rey vencedor, como gran capitán, no dejó de aprovechar este elemento de guerra y los elefantes formaron en lo sucesivo parte de las falanges macedónicas.</p>
+        <div class="tapete">
+            <h2>Elefantes en la guerra</h2>
+            <p class="t1">La industria del hombre y el furor por hacer daño a sus enemigos hizo que emplease este enorme cuadrúpedo en la guerra, armándole de diferentes modos, entre ellos unos castilletes o torres de madera, desde donde cierto número de guerreros disparaban armas arrojadizas. Heliodoro fija el número de soldados que montaba la torre en seis. De todos modos, puede juzgarse el daño que haría esta especie de fortificación movible, pues además de las flechas y dardos que despedían sus defensores, el elefante hacía también uso de la trompa, puesto que según algunos historiadores, este animal se aficiona mucho a los ejercicios bélicos.</p>
+            <br>
+            <div class="card">
+                <img src="Indian_war_elephant.jpg" class="img-card"/>
+                <p class="t2">La primera vez que le vemos aparecer en escena en la historia militar es en la batalla de Arbela o Arbella (Siria) año de 331 a. C. en que Darío, rey de Persia, los presentó en número de 15 en el centro de su línea de batalla, contra Alejandro el Grande, el cual a pesar de esto, venció a su enemigo y le despojó del reino. El rey vencedor, como gran capitán, no dejó de aprovechar este elemento de guerra y los elefantes formaron en lo sucesivo parte de las falanges macedónicas.</p>
+            </div>    
         </div>
     </main>
     <footer>
-        <p>Texto tomado de <a href="https://es.wikipedia.org/wiki/Elephantidae">Wikipedia</a></p>
+        <p class="t3">Texto tomado de <a href="https://es.wikipedia.org/wiki/Elephantidae">Wikipedia</a></p>
     </footer>
    </body>
 </html>

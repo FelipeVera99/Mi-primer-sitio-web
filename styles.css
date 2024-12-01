@@ -1,0 +1,161 @@
+/*Se definen las fuentes y su ubicación*/
+
+@font-face{
+    font-family: 'DelaGothicOne';
+    src: url(fonts/DelaGothicOne-Regular.ttf);
+}
+@font-face{
+    font-family: 'PermanentMarker';
+    src: url(fonts/PermanentMarker-Regular.ttf);
+}
+@font-face{
+    font-family: 'BalsamiqSans';
+    src: url(fonts/BalsamiqSans-Bold.ttf);
+}
+
+/*Se definen los parámetros del body*/
+
+body {
+    background-color: #61371A;     /*Color de fondo de la página*/
+	background-size: cover;          /*Tamaño del fondo de página (en este caso debe cubrir su totalidad)*/
+    margin: auto;                    /*márgenes del fondo (asignados automáticamente en partes iguales)*/
+  }
+
+/*Estilo letra con vínculos*/
+
+a:link{   /*Con link*/
+    color: #ffffff;            /*Color de letra*/
+    text-decoration: none;       /*Orden de no decoración (quita el subrayado de hipervínculos)*/
+}
+a:visited{   /*Ya fue abierta antes*/
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{    /*El cursor pasa encima*/
+    color: #99582A;
+    text-decoration: none;
+}
+
+/*Parámetros de títulos*/
+
+h1{
+    font-family: 'DelaGothicOne';
+    font-size: 75px;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;   /*Diseño de la sombra del texto*/
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;           /*márgen específica para el pie*/
+    background-color: #d07839;
+}
+h2{                                    
+	font-family: 'BalsamiqSans';  
+	color:#000000;               
+	font-size: 45px;         
+	text-align: center;
+	margin:auto;
+	padding:10px 10px 2px 10px;       
+}
+h3{
+    font-family: 'BalsamiqSans';  
+	color:#000000;         
+	font-size: 33px;    
+	margin:auto;
+	padding:10px 10px 2px 10px;
+}
+
+/*Parámetros del menú de navegación*/
+
+.menunav{
+    text-align: center;
+    border-radius: 10px;               /*Radio del borde(sirve para redondear los bordes)*/
+    background-color: #B09B8D;       /*Alineación de los botones en la página*/
+}
+.menunav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+    justify-content: space-evenly;
+}
+.menunav li {
+	list-style: none;
+}
+
+/*Parámetros de los botones del menú de navegación*/
+
+.menunav a{
+    font-family: 'PermanentMarker';     /*Tipo de letra que se usará*/
+    font-size: 23px;      /*Tamaño de letra que se usará*/
+    font-style: normal;     /*Estilo de letra que se usará (negrilla, cursiva, normal, etc)*/
+    font-weight: normal;     /*Grosor de la letra del botón*/
+    padding: 5px 50px 6px 8px;      /*Relleno que el botón aplica al fondo de la página*/
+    display: block;
+}
+
+/*Parámetros de objeto de fondo de main*/
+
+.tapete{
+    margin: 30px 8%;       
+	background: #ffffff;  
+	border-radius: 70px;
+    padding-bottom: 40px;       /*Relleno solo para el pie*/
+}
+
+/*Parámetros de letra de párrafo*/
+
+.t1{
+    position: relative;
+	max-width:1100px;
+	top: 10px;
+	margin:auto;                 
+	font-family: 'BalsamiqSans';  
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: justify;      
+}
+.t2{
+	font-family: 'BalsamiqSans';
+	font-size: 20px;
+	font-weight: normal;
+	text-align: justify; 
+    position: relative;
+	max-width:470px;
+}
+.t3{
+	font-family: 'BalsamiqSans';
+	font-size: 20px;
+	font-weight: normal;
+	text-align: justify; 
+    position: relative;
+	max-width:470px;
+    color: #ffffff;
+}
+
+/*Parámetros del formulario*/
+
+.encuesta{
+    position: relative;
+	max-width:1100px;
+	top: 10px;
+	margin:auto;                 
+	font-family: 'BalsamiqSans';  
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: justify;
+}
+
+/*Parámetros de texto con imagen*/
+
+.card{
+    display: flex;
+	justify-content: space-around;      /*Distribución del espacio*/
+	align-items: center;                /*Alinear objetos en la caja*/
+	padding: 20px;
+}
+
+/*Parámetros de imagen*/
+
+.img-card{
+	margin: 15px 10px;
+	max-width: 40%;
+}

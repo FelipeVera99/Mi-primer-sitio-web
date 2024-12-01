@@ -3,39 +3,58 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="styles.css">
       <title>¿Qué te pareció? - Mi Primer Sitio Web</title>
    </head>
    <body>
     <header>
-        <h2>¿Qué te pareció?</h2>
-        <hr />
+        <h1><a href="index.html">Elefantes</a></h1>
+        <div class="menunav">                    <!--Menú de navegación-->
+            <ul>
+                <il>
+                    <a href="comportamiento.html">Comportamientos</a>        <!--página con una lista desordenada-->
+                </il>                
+                <il>
+                    <a href="mitos.html">Realidades y mitos</a>                
+                </il>
+                <il>
+                    <a href="guerra.html">El elefante en la guerra</a>       <!--Texto e imágenes-->
+                </il>
+                <il>
+                    <a href="formulario.html">¿Qué te pareció?</a>           <!--Aquí se encuentra un formulario básico-->
+                </il>
+            </ul>
+        </div>
     </header>
     <main>
-        <p>Si te gustó esta página recuerda rellenar este formulario</p>
-        <h2>Formulario de Contacto</h2> 
-        <form> 
-            <label for="nombre">Nombre:</label>
-            <br> 
-            <input type="text" name="nombre">
-            <br>
-            <br> 
-            <label for="edad">Edad:</label>
-            <br> 
-            <input type="number" name="edad">
-            <br>
-            <br> 
-            <label for="email">Correo Electrónico:</label>
-            <br> 
-            <input type="email" name="email">
-            <br>
-            <br> 
-            <label for="mensaje">Ayudanos a mejorar:</label>
-            <br> 
-            <textarea name="mensaje"></textarea>
-            <br>
-            <br> 
-            <button>Enviar</button>
-        </form>
+        <div class="tapete">
+            <h2>¿Qué te pareció?</h2>
+            <p class="t1">Si te gustó esta página recuerda rellenar el siguiente formulario</p>
+            <h3>Formulario de Contacto</h3> 
+            <form class="encuesta"> 
+                <label for="nombre">Nombre:</label>
+                <br> 
+                <input type="text" name="nombre">
+                <br>
+                <br> 
+                <label for="edad">Edad:</label>
+                <br> 
+                <input type="number" name="edad">
+                <br>
+                <br> 
+                <label for="email">Correo Electrónico:</label>
+                <br> 
+                <input type="email" name="email">
+                <br>
+                <br> 
+                <label for="mensaje">Ayudanos a mejorar:</label>
+                <br> 
+                <textarea name="mensaje"></textarea>
+                <br>
+                <br> 
+                <button>Enviar</button>
+            </form>    
+        </div>
     </main>
    </body>
 </html>
